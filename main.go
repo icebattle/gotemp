@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	fmt.Println("Sum:", indexSumTrick(1000000000))
+	fmt.Println("Sum:", indexSumTrick(99999999999))
 
 	rand.Seed(time.Now().Unix())
 	num := rand.Int()
