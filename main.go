@@ -1,4 +1,5 @@
 package main
+
 // this is a comment
 import (
 	"fmt"
@@ -9,7 +10,7 @@ import (
 
 func main() {
 
-	fmt.Println("Sum:", indexSumTrick(999999999999))
+	fmt.Println("Sum:", indexSumTrick(9999999999999))
 
 	rand.Seed(time.Now().Unix())
 	num := rand.Int()
